@@ -1,0 +1,29 @@
+{
+  "name": "cra-docs",
+  "version": "1.0.0",
+  "description": "fsafdsf",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "node ./builds/addComponents.js && vuepress build docs && node ./builds/delComponents.js",
+    "deploy": "npm run build && gh-pages -d docs/.vuepress/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://www.baidu.com"
+  },
+  "keywords": [
+    "create-react-app"
+  ],
+  "author": "yizhen.fan",
+  "license": "ISC",
+  "dependencies": {
+    "vuepress": "^1.2.0"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.2.0",
+    "@vuepress/plugin-google-analytics": "^1.2.0",
+    "gh-pages": "^2.1.1",
+    "vuepress": "^1.2.0"
+  }
+}
