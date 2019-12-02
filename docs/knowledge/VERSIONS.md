@@ -4,7 +4,7 @@
 
 - 采用 node 脚本，交互式的命令行输入方式，优化使用体验
 
-![oh.gif](https://tva1.sinaimg.cn/large/006tNbRwgy1g9f9qzadq8g30oe0f0770.gif)
+![cra.gif](https://tva1.sinaimg.cn/large/006tNbRwgy1g9i97w4rohg30fn0b7gn8.gif)
 
 ## V1.0.0
 
