@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "fsafdsf",
   "main": "index.js",
+  "homepage": "https://fyz1994.github.io/cra-docs/",
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "node ./builds/addComponents.js && vuepress build docs && node ./builds/delComponents.js",
@@ -10,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://www.baidu.com"
+    "url": "https://github.com/fyz1994/cra-docs"
   },
   "keywords": [
     "create-react-app"
